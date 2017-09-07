@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/daviemakz/mysql-database-generator/issues"
   },
-  "homepage": "https://github.com/daviemakz/mysql-database-generator#readme"
+  "homepage": "https://github.com/daviemakz/mysql-database-generator#readme",
+  "dependencies": {
+    "mysql-connection-pool-manager": "^1.4.1"
+  }
 }
