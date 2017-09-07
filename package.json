@@ -1,0 +1,25 @@
+{
+  "name": "mysql-database-generator",
+  "version": "1.0.0",
+  "description": "This module allows you to generate a database and synchronize a mySQL database",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviemakz/mysql-database-generator.git"
+  },
+  "keywords": [
+    "mysql",
+    "database",
+    "generator",
+    "sync"
+  ],
+  "author": "David Makuni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daviemakz/mysql-database-generator/issues"
+  },
+  "homepage": "https://github.com/daviemakz/mysql-database-generator#readme"
+}
