@@ -4,7 +4,12 @@
   "description": "This module allows you to generate a database and synchronize a mySQL database",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "pretest": "cd ./test/ && bash setup.sh && cd ./../",
+    "test": "cd ./test/ && node start-tests.js",
+    "format": "prettier --single-quote --trailing-comma --write './**/*.js'",
+    "deploy-patch": "git commit -a -m 'module update: patch' && git push && npm version patch && npm publish",
+    "deploy-minor": "git commit -a -m 'module update: minor' && git push && npm version minor && npm publish",
+    "deploy-major": "git commit -a -m 'module update: major' && git push && npm version major && npm publish"
   },
   "repository": {
     "type": "git",
@@ -23,6 +28,6 @@
   },
   "homepage": "https://github.com/daviemakz/mysql-database-generator#readme",
   "dependencies": {
-    "mysql-connection-pool-manager": "^1.4.1"
+    "mysql-connection-pool-manager": "^1.4.1",
   }
 }
