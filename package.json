@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/daviemakz/mysql-database-generator#readme",
   "dependencies": {
-    "mysql-connection-pool-manager": "^1.4.1",
+    "async": "^2.5.0",
+    "mysql-connection-pool-manager": "^1.4.1"
   }
 }
